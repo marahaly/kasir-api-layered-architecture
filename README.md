@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">Assignment #1 - Bootcamp Jago Golang (Basic)</h4>
+<h4 align="center">Assignment #2 - Bootcamp Jago Golang (Layered Architecture) With Postgres Service's Sumopod.com</h4>
 
 <p align="center">
   <a href="#Endpoint">Endpoint</a> •
@@ -14,7 +14,7 @@
 
 ## Endpoint
 
-* HEALTH&nbsp;&nbsp;&nbsp;&nbsp;/api/health&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- &nbsp;Health Check
+* HEALTH&nbsp;&nbsp;&nbsp;&nbsp;/health&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- &nbsp;Health Check
 * GET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/produk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- &nbsp;Get All Product
 * POST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/produk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- &nbsp;Create Product
 * GET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/produk/{id}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- &nbsp;Get Product By ID
@@ -27,10 +27,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Go] 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/marahaly/kasir-api.git
+$ git clone https://github.com/marahaly/kasir-api-layered-architecture.git
 
 # Go into the repository
-$ cd kasir-api
+$ cd kasir-api-layered-architecture
 
 # Install Go
 
@@ -44,6 +44,7 @@ This app uses the following packages:
 
 - [Go]
 - [Code With Umam]
+- [Postgres Service With Sumopod]
 
 > GitHub [@marahaly](https://github.com/marahaly) &nbsp;&middot;&nbsp;
 
