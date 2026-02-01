@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">Assignment #2 - Bootcamp Jago Golang (Layered Architecture)</h4>
+<h4 align="center">Assignment #2 - Bootcamp Jago Golang (Layered Architecture) With Postgres Service's Sumopod.com</h4>
 
 <p align="center">
   <a href="#Endpoint">Endpoint</a> •
@@ -27,10 +27,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Go] 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/marahaly/kasir-api.git
+$ git clone https://github.com/marahaly/kasir-api-layered-architecture.git
 
 # Go into the repository
-$ cd kasir-api
+$ cd kasir-api-layered-architecture
 
 # Install Go
 
