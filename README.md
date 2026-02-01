@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">Assignment #1 - Bootcamp Jago Golang (Layered Architecture)</h4>
+<h4 align="center">Assignment #2 - Bootcamp Jago Golang (Layered Architecture)</h4>
 
 <p align="center">
   <a href="#Endpoint">Endpoint</a> •
