@@ -39,11 +39,12 @@ func main() {
 	}
 	defer db.Close()
 	
-	
+	/*** Dependency Injection ***/
 	productRepo := repositories.NewProductRepository(db)
 	productService := services.NewProductService(productRepo)
 	productHandler := handlers.NewProductHandler(productService)
 	
+	/*** Setup Route ***/
 	http.HandleFunc("/api/produk", productHandler.HandleProducts)
 	http.HandleFunc("/api/produk/", productHandler.HandleProductByID)
 	

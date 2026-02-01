@@ -17,7 +17,7 @@ func NewProductHandler(service *services.ProductService) *ProductHandler {
 	return &ProductHandler{service: service}
 }
 
-// HandleProducts - GET /api/produk
+/*** HandleProducts - GET /api/produk ***/
 func (h *ProductHandler) HandleProducts(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case http.MethodGet:
@@ -59,7 +59,7 @@ func (h *ProductHandler) Create(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(product)
 }
 
-// HandleProductByID - GET/PUT/DELETE /api/produk/{id}
+/*** HandleProductByID - GET/PUT/DELETE /api/produk/{id} ***/
 func (h *ProductHandler) HandleProductByID(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case http.MethodGet:
@@ -73,7 +73,7 @@ func (h *ProductHandler) HandleProductByID(w http.ResponseWriter, r *http.Reques
 	}
 }
 
-// GetByID - GET /api/produk/{id}
+/*** GetByID - GET /api/produk/{id} ***/
 func (h *ProductHandler) GetByID(w http.ResponseWriter, r *http.Request) {
 	idStr := strings.TrimPrefix(r.URL.Path, "/api/produk/")
 	id, err := strconv.Atoi(idStr)
@@ -118,7 +118,7 @@ func (h *ProductHandler) Update(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(product)
 }
 
-// Delete - DELETE /api/produk/{id}
+/***  Delete - DELETE /api/produk/{id} ***/
 func (h *ProductHandler) Delete(w http.ResponseWriter, r *http.Request) {
 	idStr := strings.TrimPrefix(r.URL.Path, "/api/produk/")
 	id, err := strconv.Atoi(idStr)
