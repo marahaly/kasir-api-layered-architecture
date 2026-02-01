@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">Assignment #1 - Bootcamp Jago Golang (Basic)</h4>
+<h4 align="center">Assignment #1 - Bootcamp Jago Golang (Layered Architecture)</h4>
 
 <p align="center">
   <a href="#Endpoint">Endpoint</a> •
@@ -44,6 +44,7 @@ This app uses the following packages:
 
 - [Go]
 - [Code With Umam]
+- [Postgres Service With Sumopod]
 
 > GitHub [@marahaly](https://github.com/marahaly) &nbsp;&middot;&nbsp;
 
